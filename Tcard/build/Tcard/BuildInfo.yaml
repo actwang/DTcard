@@ -1,0 +1,60 @@
+---
+compiled_package_info:
+  package_name: Tcard
+  address_alias_instantiation:
+    NamedAddr: 000000000000000000000000deadbeef
+    Std: "00000000000000000000000000000001"
+  module_resolution_metadata:
+    ? address: "00000000000000000000000000000001"
+      name: ASCII
+    : Std
+    ? address: "00000000000000000000000000000001"
+      name: BCS
+    : Std
+    ? address: "00000000000000000000000000000001"
+      name: BitVector
+    : Std
+    ? address: "00000000000000000000000000000001"
+      name: Capability
+    : Std
+    ? address: "00000000000000000000000000000001"
+      name: Errors
+    : Std
+    ? address: "00000000000000000000000000000001"
+      name: Event
+    : Std
+    ? address: "00000000000000000000000000000001"
+      name: FixedPoint32
+    : Std
+    ? address: "00000000000000000000000000000001"
+      name: GUID
+    : Std
+    ? address: "00000000000000000000000000000001"
+      name: Hash
+    : Std
+    ? address: "00000000000000000000000000000001"
+      name: Option
+    : Std
+    ? address: "00000000000000000000000000000001"
+      name: Signer
+    : Std
+    ? address: "00000000000000000000000000000001"
+      name: UnitTest
+    : Std
+    ? address: "00000000000000000000000000000001"
+      name: Vector
+    : Std
+    ? address: 000000000000000000000000deadbeef
+      name: DTCard
+    : NamedAddr
+  source_digest: ACB7994160A38A17E9CD08E8A048327C9FA1412B20A9848B59F66E3750C4E416
+  build_flags:
+    dev_mode: true
+    test_mode: true
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses: {}
+dependencies:
+  - MoveStdlib
